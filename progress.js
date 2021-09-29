@@ -3,7 +3,6 @@ const button = document.querySelector(".button");
 const list = document.querySelector(".list");
 
 button.addEventListener("click", addTodo);
-list.addEventListener("click", clickInList);
 
 function addTodo(e) {
   e.preventDefault();
