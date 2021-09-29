@@ -1,0 +1,72 @@
+body {
+  color: #000;
+  min-height: 100vh;
+}
+
+.input {
+  width: 400px;
+  height: 35px;
+  border: 1px solid black;
+  background: #fafafa;
+}
+
+.button {
+  color: white;
+  border: 1px solid black;
+  height: 40px;
+  background: #413eff;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  /* border: 5px solid purple;  */
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  min-width: 35vw;
+}
+
+.todo li {
+  flex: 1;
+}
+.todo {
+  /* border: 1px solid black; */
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cek {
+  color: #00ff73;
+  background: #fffffe;
+  border: none;
+  padding: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+.trash {
+  color: #fc2212;
+  background: #fffffe;
+  border: none;
+  font-size: 20px;
+  padding: 1rem;
+  cursor: pointer;
+  margin-left: 6px;
+}
