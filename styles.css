@@ -1,0 +1,40 @@
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo-images {
+    margin: 40px 40px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
